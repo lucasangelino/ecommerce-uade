@@ -79,7 +79,7 @@ async function addToCart(id) {
     console.log(id);
     const res = await fetch("./juegos.json");
     const { games } = await res.json();
-    const game = games.find((game) => game.id === id);
+    const game = games.all.find((game) => game.id === id);
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     cart.push(game);
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -91,9 +91,11 @@ async function addToCart(id) {
 }
 
 async function updateNumberOfCartBadgeItems() {
+  console.log("updating cart badge");
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
   const cartItems = document.querySelector(".cart-badge");
   cartItems.textContent = cart.length;
 }
 
 getGames();
+updateNumberOfCartBadgeItems();
