@@ -1,0 +1,72 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Dragon Ball Ultimate",
+            "year": 1985,
+            "company": "Nintendo",
+            "price": "19.03",
+            "cover": "/images/Marvel-Spiderman-2.jpg",
+            "description": "Ultimate Game",
+            "platforms": [
+                "NES",
+                "GBA",
+                "Wii",
+                "3DS",
+                "Wii U",
+                "Switch"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Dragons Dogma",
+            "year": 1986,
+            "company": "Nintendo",
+            "cover": "/images/Marvel-Spiderman-2.jpg",
+            "description": "Ultimate Game",
+            "price": "19.03",
+            "platforms": [
+                "NES",
+                "GBA",
+                "Wii",
+                "3DS",
+                "Wii U",
+                "Switch"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Spider Man",
+            "year": 1986,
+            "company": "Nintendo",
+            "cover": "/images/Marvel-Spiderman-2.jpg",
+            "description": "Ultimate Game",
+            "price": "19.03",
+            "platforms": [
+                "NES",
+                "GBA",
+                "Wii",
+                "3DS",
+                "Wii U",
+                "Switch"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "FC 25",
+            "year": 1986,
+            "company": "Konami",
+            "cover": "/images/Marvel-Spiderman-2.jpg",
+            "description": "Ultimate Game",
+            "price": "19.03",
+            "platforms": [
+                "NES",
+                "GBA",
+                "Wii",
+                "3DS",
+                "Wii U",
+                "Switch"
+            ]
+        }
+    ]
+}
