@@ -60,4 +60,5 @@ async function updateNumberOfCartBadgeItems() {
     const cartItems = document.querySelector(".cart-badge");
     cartItems.textContent = cart.length;
 }
+
 getGames();
