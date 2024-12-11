@@ -663,9 +663,9 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #db4f66;
+  background-color: #922929;
   color: #ffffff;
-  border: 1px solid #db4f66;
+  border: 1px solid #922929;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -710,7 +710,7 @@ a:focus {
 
 .client_section .box .client_info .client_name h5 {
   font-weight: 600;
-  color: #db4f66;
+  color: #922929;
 }
 
 .client_section .box .client_info .client_name h6 {
@@ -739,7 +739,7 @@ a:focus {
 .client_section .carousel-control-next {
   width: 45px;
   height: 125px;
-  background-color: #db4f66;
+  background-color: #922929;
   opacity: 1;
   font-size: 28px;
   font-weight: bold;
@@ -802,7 +802,7 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #f89cab;
+  background: #922929;
   margin-top: 15px;
   text-transform: uppercase;
 }
@@ -874,7 +874,7 @@ a:focus {
 }
 
 .cart-button {
-  background-color: #db4f66;
+  background-color: #922929;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
