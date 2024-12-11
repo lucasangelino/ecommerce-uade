@@ -1,17 +1,17 @@
 async function getGames() {
-    try {
-        const res = await fetch("./juegos.json");
-        const { games } = await res.json();
-        const gamesContainer = document.getElementById("game-grid");
-        games.forEach((game) => {
-            const gameCard = document.createElement("div");
-            gameCard.classList.add("col-md-3");
-            gameCard.innerHTML = `
+  try {
+    const res = await fetch("./juegos.json");
+    const { games } = await res.json();
+    const gamesContainer = document.getElementById("game-grid");
+    games.last.forEach((game) => {
+      const gameCard = document.createElement("div");
+      gameCard.classList.add("col-md-3");
+      gameCard.innerHTML = `
          <div class="col">
         <div class="card">
-          <img src=${game.cover} class="card-img-top card-img" alt="Hollywood Sign on The Hill" />
+          <img src=${game.cover} class="card-img-top card-img" alt=${game.cover} />
           <div class="card-body">
-            <h5 class="card-title">Dragon Ball</h5>
+            <h5 class="card-title">${game.name}</h5>
             <h6>${game.price}</h6>
             <p class="card-text">
             ${game.description}
@@ -31,34 +31,34 @@ async function getGames() {
         </div>
       </div>
         `;
-            gamesContainer.appendChild(gameCard);
-        });
+      gamesContainer.appendChild(gameCard);
+    });
 
-    } catch (error) {
-        console.log(error);
+  } catch (error) {
+    console.log(error);
 
-    }
+  }
 }
 async function addToCart(id) {
-    try {
-        console.log(id);
-        const res = await fetch("./juegos.json");
-        const { games } = await res.json();
-        const game = games.find((game) => game.id === id);
-        const cart = JSON.parse(localStorage.getItem("cart")) || [];
-        cart.push(game);
-        localStorage.setItem("cart", JSON.stringify(cart));
-        updateNumberOfCartBadgeItems();
-    } catch (error) {
-        console.log(error);
-    }
+  try {
+    console.log(id);
+    const res = await fetch("./juegos.json");
+    const { games } = await res.json();
+    const game = games.find((game) => game.id === id);
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    cart.push(game);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    updateNumberOfCartBadgeItems();
+  } catch (error) {
+    console.log(error);
+  }
 
 }
 
 async function updateNumberOfCartBadgeItems() {
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const cartItems = document.querySelector(".cart-badge");
-    cartItems.textContent = cart.length;
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const cartItems = document.querySelector(".cart-badge");
+  cartItems.textContent = cart.length;
 }
 
 getGames();
