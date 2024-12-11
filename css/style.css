@@ -890,5 +890,10 @@ a:focus {
   object-fit: contain;
 }
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+.jumbotron {
+  background-color: #8B0000;
+  color: #ffffff;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
