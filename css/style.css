@@ -897,3 +897,53 @@ a:focus {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+  .hero_area {
+    padding: 0 25px;
+  }
+
+  .slider_section .img-box {
+    margin-bottom: 45px;
+  }
+
+  .saving_section,
+  .gift_section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .gift_section .box {
+    padding: 45px 0;
+  }
+
+  .gift_section .img-box {
+    padding: 0 15px;
+    margin-bottom: 45px;
+  }
+
+  .info_section .row>div {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .info_section {
+    margin: 0 25px 25px;
+  }
+
+  #all-game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  }
+}
