@@ -898,6 +898,10 @@ a:focus {
   margin-bottom: 40px;
 }
 
+navbar-img {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .hero_area {
     padding: 0 25px;
@@ -951,5 +955,9 @@ a:focus {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
+  }
+
+  #navbar-img {
+    display: none;
   }
 }
