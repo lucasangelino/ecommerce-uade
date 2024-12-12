@@ -902,7 +902,7 @@ navbar-img {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (min-width:641px) {
   .hero_area {
     padding: 0 25px;
   }
