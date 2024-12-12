@@ -1,60 +1,58 @@
 {
     "games": {
-        "last": [     {
-            "id": 1,
-            "name": "Silent Hill 2",
-            "year": 1985,
-            "company": "SONY",
-            "price": "$60.000",
-            "cover": "/images/silent-hill-2-ps5.jpg",
-            "description": "15% de descuento abonando en efectivo",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
-        {
-            "id": 1,
-            "name": "UFC 5",
-            "year": 1995,
-            "company": "Nintendo",
-            "price": "$54.000",
-            "cover": "/images/ufc-5-ps5.jpg",
-            "description": "Comprá ahora y pagá en 3 cuotas sin interés",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
-        {
-            "id": 1,
-            "name": "Rise of the Ronin",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$105.000",
-            "cover": "/images/rise-of-the-ronin-ps5.jpg",
-            "description": "Obtené un 20% de descuento en tu primer pedido",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
-        {
+        "last": [
+            {
+                "id": 1,
+                "name": "Silent Hill 2",
+                "year": 1985,
+                "company": "SONY",
+                "price": "$60.000",
+                "cover": "/images/silent-hill-2-ps5.jpg",
+                "description": "15% de descuento abonando en efectivo",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "UFC 5",
+                "year": 1995,
+                "company": "Nintendo",
+                "price": "$54.000",
+                "cover": "/images/ufc-5-ps5.jpg",
+                "description": "Comprá ahora y pagá en 3 cuotas sin interés",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Rise of the Ronin",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$105.000",
+                "cover": "/images/rise-of-the-ronin-ps5.jpg",
+                "description": "Obtené un 20% de descuento en tu primer pedido",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
                 "id": 1,
                 "name": "Mortal Kombat 1",
                 "year": 1985,
@@ -70,62 +68,128 @@
                     "Wii U",
                     "Switch"
                 ]
-            },  
-            
-        {
-            "id": 1,
-            "name": "Ratchet and Clank",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$135.00",
-            "cover": "/images/ratchetandclank.jpg",
-            "description": "Combiná y ahorrá: 15% de descuento en compras de 2 o más productos",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
-        {
-            "id": 1,
-            "name": "Prince of Persia The Lost Crow",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$105.000",
-            "cover": "/images/princeofpersiathelostcrow.jpg",
-            "description": "15% de descuento abonando en efectivo",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
-        {
-            "id": 1,
-            "name": "God of War RAGNAROK",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$125.000",
-            "cover": "/images/godofwarragmarok.jpg",
-            "description": "Promoción de fin de temporada: hasta 50% de descuento en productos seleccionados",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            
+            }
+        ],
+        "all": [
+            {
+                "id": 1,
+                "name": "Silent Hill 2",
+                "year": 1985,
+                "company": "SONY",
+                "price": "$60.000",
+                "cover": "/images/silent-hill-2-ps5.jpg",
+                "description": "15% de descuento abonando en efectivo",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "UFC 5",
+                "year": 1995,
+                "company": "Nintendo",
+                "price": "$54.000",
+                "cover": "/images/ufc-5-ps5.jpg",
+                "description": "Comprá ahora y pagá en 3 cuotas sin interés",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Rise of the Ronin",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$105.000",
+                "cover": "/images/rise-of-the-ronin-ps5.jpg",
+                "description": "Obtené un 20% de descuento en tu primer pedido",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Mortal Kombat 1",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$145.00",
+                "cover": "/images/Mortal-Kombat-1-2.jpg",
+                "description": "Envío express en 24 hs para pedidos superiores a $145.000",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Ratchet and Clank",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$135.00",
+                "cover": "/images/ratchetandclank.jpg",
+                "description": "Combiná y ahorrá: 15% de descuento en compras de 2 o más productos",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Prince of Persia The Lost Crow",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$105.000",
+                "cover": "/images/princeofpersiathelostcrow.jpg",
+                "description": "15% de descuento abonando en efectivo",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "God of War RAGNAROK",
+                "year": 1985,
+                "company": "Nintendo",
+                "price": "$125.000",
+                "cover": "/images/godofwarragmarok.jpg",
+                "description": "Promoción de fin de temporada: hasta 50% de descuento en productos seleccionados",
+                "platforms": [
+                    "NES",
+                    "GBA",
+                    "Wii",
+                    "3DS",
+                    "Wii U",
+                    "Switch"
+                ]
+            },
             {
                 "id": 1,
                 "name": "Assassins Creed Mirage",
@@ -168,211 +232,6 @@
                 "cover": "/images/dragons-dogma-2-ps5.jpg",
                 "description": "Oferta limitada: aprovechá este descuento exclusivo antes de que termine",
                 "price": "$99.000",
-                "platforms": [
-                    "NES",
-                    "GBA",
-                    "Wii",
-                    "3DS",
-                    "Wii U",
-                    "Switch"
-                ]
-            },
-            {
-                "id": 3,
-                "name": "Spider Man 2",
-                "year": 1986,
-                "company": "Nintendo",
-                "cover": "/images/Marvel-Spiderman-2.jpg",
-                "description": "Envío gratis en compras superiores a $200.000",
-                "price": "$80.500",
-                "platforms": [
-                    "NES",
-                    "GBA",
-                    "Wii",
-                    "3DS",
-                    "Wii U",
-                    "Switch"
-                ]
-            },
-            {
-                "id": 4,
-                "name": "FC 25",
-                "year": 1986,
-                "company": "Konami",
-                "cover": "/images/ea-sports-fc-25-standard-edition-ps5.jpg",
-                "description": "15% de descuento abonando en efectivo",
-                "price": "$129.999",
-                "platforms": [
-                    "NES",
-                    "GBA",
-                    "Wii",
-                    "3DS",
-                    "Wii U",
-                    "Switch"
-                ]
-            }
-        ],
-        "all": [ {
-            "id": 1,
-            "name": "Silent Hill 2",
-            "year": 1985,
-            "company": "SONY",
-            "price": "$60.000",
-            "cover": "/images/silent-hill-2-ps5.jpg",
-            "description": "15% de descuento abonando en efectivo",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "UFC 5",
-            "year": 1995,
-            "company": "Nintendo",
-            "price": "$54.000",
-            "cover": "/images/ufc-5-ps5.jpg",
-            "description": "Comprá ahora y pagá en 3 cuotas sin interés",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Rise of the Ronin",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$105.000",
-            "cover": "/images/rise-of-the-ronin-ps5.jpg",
-            "description": "Obtené un 20% de descuento en tu primer pedido",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Mortal Kombat 1",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$145.00",
-            "cover": "/images/Mortal-Kombat-1-2.jpg",
-            "description": "Envío express en 24 hs para pedidos superiores a $145.000",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Ratchet and Clank",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$135.00",
-            "cover": "/images/ratchetandclank.jpg",
-            "description": "Combiná y ahorrá: 15% de descuento en compras de 2 o más productos",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Prince of Persia The Lost Crow",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$105.000",
-            "cover": "/images/princeofpersiathelostcrow.jpg",
-            "description": "15% de descuento abonando en efectivo",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "God of War RAGNAROK",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$125.000",
-            "cover": "/images/godofwarragmarok.jpg",
-            "description": "Promoción de fin de temporada: hasta 50% de descuento en productos seleccionados",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Assassins Creed Mirage",
-            "year": 1985,
-            "company": "Nintendo",
-            "price": "$95.000",
-            "cover": "/images/assassinscreedmirage.jpg",
-            "description": "Oferta limitada: aprovechá este descuento exclusivo antes de que termine",
-            "platforms": [
-                "NES",
-                "GBA",
-                "Wii",
-                "3DS",
-                "Wii U",
-                "Switch"
-            ]
-        },
-            {
-                "id": 1,
-                "name": "Dragon Ball Ultimate",
-                "year": 1985,
-                "company": "Nintendo",
-                "price": "$135.00",
-                "cover": "/images/dragon-ball-sparking-zero-ps5.jpg",
-                "description": "Promoción de fin de temporada: hasta 50% de descuento en productos seleccionados",
-                "platforms": [
-                    "NES",
-                    "GBA",
-                    "Wii",
-                    "3DS",
-                    "Wii U",
-                    "Switch"
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Dragons Dogma",
-                "year": 1986,
-                "company": "Nintendo",
-                "cover": "/images/dragons-dogma-2-ps5.jpg",
-                "description": "Oferta limitada: aprovechá este descuento exclusivo antes de que termine",
-                "price":"$99.000",
                 "platforms": [
                     "NES",
                     "GBA",
